@@ -1,0 +1,2 @@
+export function PageHeader({title,desc}:{title:string;desc:string}){return <section className="bg-white py-14"><div className="mx-auto max-w-7xl px-5"><h1 className="text-4xl font-black tracking-tight">{title}</h1><p className="mt-3 max-w-2xl leading-8 text-slate-600">{desc}</p></div></section>}
+export function EmptyCard({text}:{text:string}){return <div className="rounded-[2rem] border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">{text}</div>}

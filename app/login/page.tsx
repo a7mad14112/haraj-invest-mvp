@@ -1,0 +1,1 @@
+import { Navbar } from "@/components/layout/Navbar";import { Footer } from "@/components/layout/Footer";import { AuthForm } from "@/components/auth/AuthForm";export default function Page(){return <main><Navbar/><AuthForm type="login"/><Footer/></main>}
