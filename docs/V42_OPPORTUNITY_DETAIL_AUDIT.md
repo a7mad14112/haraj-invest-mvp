@@ -1,0 +1,1 @@
+v4.2 upgrades opportunity detail layout only. No SQL migration needed. No Auth/Admin logic changed.

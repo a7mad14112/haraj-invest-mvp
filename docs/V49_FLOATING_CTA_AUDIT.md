@@ -1,0 +1,1 @@
+v4.9 adds floating quick contact and mobile bottom CTA. No SQL migration needed. Hidden on /admin. No Supabase/Auth/Admin logic changed.

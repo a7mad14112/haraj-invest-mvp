@@ -1,0 +1,1 @@
+v5.1 adds local saved opportunities via localStorage and /saved page. No SQL migration needed. No Supabase/Auth/Admin logic changed.

@@ -1,0 +1,1 @@
+v5.2 adds homepage trust metrics and conversion paths. No Opportunity Compare. No SQL migration needed. No Supabase/Auth/Admin logic changed.

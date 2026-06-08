@@ -1,0 +1,13 @@
+create extension if not exists "uuid-ossp";
+create table if not exists public.project_submissions (id uuid primary key default uuid_generate_v4(), project_name text not null, city text, sector text, opportunity_type text, asking_value text, revenue_estimate text, profit_estimate text, documents_status text, details text, contact_name text, contact_phone text, source_page text, status text not null default 'new', created_at timestamptz not null default now());
+create table if not exists public.interest_requests (id uuid primary key default uuid_generate_v4(), contact_name text, contact_phone text, interest_type text, financial_capacity text, message text, source_page text, status text not null default 'new', created_at timestamptz not null default now());
+create table if not exists public.nda_requests (id uuid primary key default uuid_generate_v4(), contact_name text, contact_phone text, requester_role text, opportunity_reference text, notes text, source_page text, status text not null default 'new', created_at timestamptz not null default now());
+alter table public.project_submissions enable row level security;
+alter table public.interest_requests enable row level security;
+alter table public.nda_requests enable row level security;
+drop policy if exists "Anyone can insert project submissions" on public.project_submissions;
+create policy "Anyone can insert project submissions" on public.project_submissions for insert to anon, authenticated with check (true);
+drop policy if exists "Anyone can insert interest requests" on public.interest_requests;
+create policy "Anyone can insert interest requests" on public.interest_requests for insert to anon, authenticated with check (true);
+drop policy if exists "Anyone can insert nda requests" on public.nda_requests;
+create policy "Anyone can insert nda requests" on public.nda_requests for insert to anon, authenticated with check (true);

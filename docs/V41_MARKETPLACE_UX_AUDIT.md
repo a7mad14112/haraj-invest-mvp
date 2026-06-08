@@ -1,0 +1,1 @@
+v4.1 upgrades marketplace UX only. No SQL migration needed. No Auth/Admin logic changed.

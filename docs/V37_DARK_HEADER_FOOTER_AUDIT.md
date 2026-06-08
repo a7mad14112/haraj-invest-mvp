@@ -1,0 +1,1 @@
+v3.7 adds dark header and dark footer. UI-only; no SQL migration needed. Footer copy improved and homepage now gets a real dark footer.

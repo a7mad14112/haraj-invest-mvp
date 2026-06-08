@@ -1,0 +1,1 @@
+v3.5 is UI-only CSS refinement. No SQL migration needed. No Supabase/Auth logic changed.

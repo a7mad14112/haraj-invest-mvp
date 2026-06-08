@@ -1,0 +1,62 @@
+{
+  "name": "حراج إنڤست",
+  "short_name": "حراج إنڤست",
+  "description": "منصة لتنظيم عرض الفرص التجارية والمشاريع وتسهيل التواصل الأولي.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#061527",
+  "theme_color": "#061527",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "تصفح الفرص",
+      "short_name": "الفرص",
+      "url": "/marketplace",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "أضف مشروعك",
+      "short_name": "أضف",
+      "url": "/submit-project",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "أرسل اهتمامك",
+      "short_name": "اهتمام",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
