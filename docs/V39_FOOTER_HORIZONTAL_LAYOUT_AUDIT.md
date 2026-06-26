@@ -1,0 +1,1 @@
+v3.9 updates footer layout only. No SQL migration needed. Footer sections are horizontal on desktop and responsive on mobile.

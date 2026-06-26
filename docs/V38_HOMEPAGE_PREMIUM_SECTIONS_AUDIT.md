@@ -1,0 +1,1 @@
+v3.8 upgrades homepage sections only. No SQL migration needed. No Supabase/Auth/Admin logic changed.

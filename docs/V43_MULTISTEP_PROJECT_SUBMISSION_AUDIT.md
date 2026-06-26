@@ -1,0 +1,1 @@
+v4.3 replaces ProjectForm with a multi-step wizard. No SQL migration needed. Uses project_submissions table as before.

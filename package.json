@@ -1,0 +1,24 @@
+{
+  "name": "haraj-invest-nextjs",
+  "version": "13.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check:build": "next build",
+    "check:routes": "node -e \"const fs=require('fs'); const bad=['app/discover','app/compare']; const found=bad.filter(p=>fs.existsSync(p)); if(found.length){console.error('Rejected routes found:', found); process.exit(1)} console.log('Route check passed')\"",
+    "check:launch": "npm run check:routes && npm run check:build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.86.0",
+    "next": "^16.2.7",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.2.7"
+  }
+}

@@ -1,0 +1,1 @@
+v4.7 upgrades header navigation and mobile drawer. No SQL migration needed. No Supabase/Admin logic changed.

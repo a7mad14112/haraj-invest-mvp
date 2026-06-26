@@ -1,0 +1,1 @@
+v5.4 adds content and UI consistency polish only. No /discover route. No Sector & City Discovery. No SQL migration needed. No Supabase/Auth/Admin logic changed.

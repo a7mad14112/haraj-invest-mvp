@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.haraj_invest.twa",
+        "sha256_cert_fingerprints": ["28:88:BB:21:2D:47:AF:8A:CE:D4:10:FE:5A:75:96:69:AB:D5:BE:FA:14:21:0C:69:CA:F4:08:9B:0C:DE:B9:50"]
+      }
+    }]
