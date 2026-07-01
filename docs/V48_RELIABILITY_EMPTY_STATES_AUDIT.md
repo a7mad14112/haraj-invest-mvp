@@ -1,0 +1,1 @@
+v4.8 adds not-found, loading, error, manifest, and empty-state polish. No SQL migration needed. No Supabase/Auth/Admin logic changed.

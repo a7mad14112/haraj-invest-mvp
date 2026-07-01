@@ -1,0 +1,1 @@
+v5.5 adds final mobile/responsive polish only. No /discover or /compare routes. No SQL migration needed. No Supabase/Auth/Admin logic changed.

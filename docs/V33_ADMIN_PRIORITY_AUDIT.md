@@ -1,0 +1,1 @@
+v3.3 adds priority management. SQL migration required: supabase/admin-priority-management.sql

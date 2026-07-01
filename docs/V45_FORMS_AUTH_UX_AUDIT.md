@@ -1,0 +1,1 @@
+v4.5 upgrades form/auth page layouts only. No SQL migration needed. No Supabase/Auth/Admin logic changed.

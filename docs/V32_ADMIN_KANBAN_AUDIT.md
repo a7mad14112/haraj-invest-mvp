@@ -1,0 +1,1 @@
+v3.2 adds Admin Kanban Board. No SQL migration needed.

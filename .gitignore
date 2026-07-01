@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env.local
+.env*.local
+.DS_Store
+
+# ملفات توقيع تطبيق Android — لا تُرفع إطلاقًا (سرية)
+*.keystore
+*.jks
+signing-key-info.txt
+signing.keystore
+*.aab
+*.apk

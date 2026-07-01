@@ -1,0 +1,1 @@
+v5.3 adds FAQ page and homepage FAQ section. No SQL migration needed. No Supabase/Auth/Admin logic changed.

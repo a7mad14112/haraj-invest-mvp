@@ -1,0 +1,1 @@
+v4.4 upgrades account page layout only. No SQL migration needed. No Auth/Admin/Supabase logic changed.

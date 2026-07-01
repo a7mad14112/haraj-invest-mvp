@@ -1,0 +1,1 @@
+v3.6 removes the explicit 'no recommendations/no guarantees' wording from the homepage only and replaces it with cleaner trust-focused copy. Legal/policy pages remain untouched.

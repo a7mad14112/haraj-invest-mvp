@@ -1,0 +1,1 @@
+v3.4 Premium UI Polish is mainly CSS-based. No SQL migration needed. No Supabase/Auth logic changed.

@@ -1,0 +1,1 @@
+PASS: v6.1 audit passed. No risky alias imports. No /discover or /compare routes/references. No escaped JSX quote risk found.

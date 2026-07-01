@@ -1,0 +1,1 @@
+v4.6 upgrades trust/content pages and adds sitemap/robots. No SQL migration needed. No Supabase/Auth/Admin logic changed.

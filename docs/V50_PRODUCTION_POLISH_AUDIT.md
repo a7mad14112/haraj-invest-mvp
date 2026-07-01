@@ -1,0 +1,1 @@
+v5.0 adds SEO metadata, structured data, accessibility skip link, focus styles, print styles, and reduced-motion support. No SQL migration needed. No Supabase/Auth/Admin logic changed.
